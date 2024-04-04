@@ -1,0 +1,222 @@
+                                                                    .section {
+                                                                    background-color: rgba(73, 51, 35, 0.7) !important;
+                                                                }
+                                                                
+                                                                a {
+                                                                    /* color: #f25f5c;*/
+                                                                    text-decoration: none;
+                                                                    /*background-color: rgba(73, 51, 35, 0.7);*/
+                                                                }
+                                                                
+                                                                img {
+                                                                    max-width: 100%;
+                                                                }
+                                                                
+                                                                li,
+                                                                ul {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    border: 0;
+                                                                    font-size: 100%;
+                                                                }
+                                                                
+                                                                .cd-container {
+                                                                    width: 70%;
+                                                                    max-width: 200px;
+                                                                    margin: 0 auto;
+                                                                    background-color: #FFF9E6;
+                                                                }
+                                                                
+                                                                .cd-container::after {
+                                                                    content: '';
+                                                                    display: table;
+                                                                    clear: both;
+                                                                }
+                                                                
+                                                                .cd-section {
+                                                                    padding: 2em 0;
+                                                                    text-align: center;
+                                                                }
+                                                                
+                                                                .cd-section .cd-container {
+                                                                    max-width: 768px;
+                                                                }
+                                                                
+                                                                .cd-section h2 {
+                                                                    font-family: Bahianita;
+                                                                    font-weight: bold;
+                                                                    text-transform: uppercase;
+                                                                    font-size: 10px;
+                                                                    font-size: 1.25rem;
+                                                                }
+                                                                
+                                                                .cd-section p {
+                                                                    line-height: 1.0;
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 200px) {
+                                                                    .cd-section {
+                                                                        padding: 4em;
+                                                                    }
+                                                                    .cd-section p {
+                                                                        line-height: 1.6;
+                                                                    }
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 800px) {
+                                                                    .cd-section {
+                                                                        padding: 6em;
+                                                                    }
+                                                                    .cd-section h2 {
+                                                                        margin-bottom: 2em;
+                                                                    }
+                                                                    .cd-section p {
+                                                                        line-height: 1.8;
+                                                                        font-size: 18px;
+                                                                        font-size: 1.125rem;
+                                                                    }
+                                                                }
+                                                                
+                                                                .cd-placeholder-1 {
+                                                                    background: #f25f5c;
+                                                                    color: #C89A4C;
+                                                                }
+                                                                
+                                                                .cd-placeholder-2 {
+                                                                    background: #C89A4C;
+                                                                }
+                                                                
+                                                                #cd-team {
+                                                                    background-color: #FFF9E6;
+                                                                    ;
+                                                                }
+                                                                
+                                                                #cd-team .cd-container {
+                                                                    max-width: 800px;
+                                                                }
+                                                                
+                                                                #cd-team h2 {
+                                                                    color: #900030;
+                                                                    font: Bahianita;
+                                                                }
+                                                                
+                                                                #cd-team li {
+                                                                    margin-bottom: 2em;
+                                                                    border-radius: 0.25em;
+                                                                    box-shadow: 0 0 10px rgba(92, 75, 81, 0);
+                                                                    -webkit-transition: all 0.3s;
+                                                                    -moz-transition: all 0.3s;
+                                                                    transition: all 0.3s;
+                                                                    list-style-type: none;
+                                                                }
+                                                                
+                                                                .no-touch #cd-team li:hover {
+                                                                    box-shadow: 0 0 10px rgba(92, 75, 81, 0.3);
+                                                                }
+                                                                
+                                                                .no-touch #cd-team li:hover .cd-img-overlay {
+                                                                    opacity: 1;
+                                                                }
+                                                                
+                                                                #cd-team figure {
+                                                                    position: relative;
+                                                                }
+                                                                
+                                                                #cd-team img {
+                                                                    display: block;
+                                                                    width: 100%;
+                                                                    border-radius: .25em .25em 0 0;
+                                                                }
+                                                                
+                                                                #cd-team .cd-img-overlay {
+                                                                    position: absolute;
+                                                                    top: 0;
+                                                                    left: 0;
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                    background: rgba(92, 75, 81, 0.9);
+                                                                    opacity: 0;
+                                                                    border-radius: .25em .25em 0 0;
+                                                                    -webkit-transition: opacity 0.3s;
+                                                                    -moz-transition: opacity 0.3s;
+                                                                    transition: opacity 0.3s;
+                                                                }
+                                                                
+                                                                #cd-team .cd-img-overlay span {
+                                                                    position: absolute;
+                                                                    left: 50%;
+                                                                    top: 50%;
+                                                                    bottom: auto;
+                                                                    right: auto;
+                                                                }
+                                                                
+                                                                #cd-team .cd-member-info {
+                                                                    height: 150px;
+                                                                    background: #C89A4C;
+                                                                    text-align: center;
+                                                                    font-family: Bahianita;
+                                                                    font-weight: bold;
+                                                                    font-size: 20px;
+                                                                    color: #900030;
+                                                                    padding-top: 20px;
+                                                                    border-radius: 0 0 .25em .25em;
+                                                                }
+                                                                
+                                                                #cd-team .cd-member-info span {
+                                                                    display: block;
+                                                                    font-family: Bahianita;
+                                                                    font-weight: normal;
+                                                                    color: #900030;
+                                                                    font-size: 14px;
+                                                                    font-size: 0.875rem;
+                                                                    margin-top: .5em;
+                                                                }
+                                                                
+                                                                @media only screen and (min-width: 768px) {
+                                                                    #cd-team li {
+                                                                        width: 31%;
+                                                                        float: left;
+                                                                        margin-right: 3.5%;
+                                                                    }
+                                                                    #cd-team li:nth-child(3n) {
+                                                                        margin-right: 0;
+                                                                    }
+                                                                }
+                                                                
+                                                                .cd-member-bio {
+                                                                    position: fixed;
+                                                                    top: 0;
+                                                                    right: 0;
+                                                                    width: 270px;
+                                                                    height: 100%;
+                                                                    overflow-y: auto;
+                                                                    .cd-member-bio .cd-member-bio-pict {
+                                                                        position: relative;
+                                                                    }
+                                                                    .no-cssgradients .cd-member-bio .cd-member-bio-pict::after {
+                                                                        display: none;
+                                                                    }
+                                                                    .cd-member-bio img {
+                                                                        width: 100%;
+                                                                        display: block;
+                                                                    }
+                                                                    .cd-member-bio .cd-bio-content {
+                                                                        padding: 1em;
+                                                                        color: #FFF;
+                                                                    }
+                                                                    .cd-member-bio .cd-bio-content h1 {
+                                                                        font-family: "Droid Sans", sans-serif;
+                                                                        font-weight: bold;
+                                                                        text-transform: uppercase;
+                                                                        text-align: center;
+                                                                        font-size: 20px;
+                                                                        font-size: 1.25rem;
+                                                                    }
+                                                                    .cd-member-bio .cd-bio-content p {
+                                                                        font-size: 14px;
+                                                                        font-size: 0.875rem;
+                                                                        margin: 1em 0;
+                                                                        line-height: 1.4;
+                                                                        color: #d7cfd2;
+                                                                    }
+                                                                }

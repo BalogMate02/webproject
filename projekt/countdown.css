@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 10px auto;
+}
+
+h2 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+    font-family: Bahianita;
+    color: #C89A4C;
+}
+
+li1 {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Bahianita;
+    color: #C89A4C;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li1 span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+@media all and (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    li1 {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+    li1 span {
+        font-size: 3.375rem;
+    }
+}
